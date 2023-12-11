@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="656dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/pink"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#F98F80"
+                android:text="   SOS"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="179dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="文章推薦"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="33sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="91dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/app_icon7"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginEnd="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="飲食"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:theme="@style/AppTheme" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="健身"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:theme="@style/AppTheme" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="替代運動"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:theme="@style/AppTheme" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="運動前中後吃什麼？營養師教你增肌減脂的運動飲食原則"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="增肌減脂飲食原則公開，碳水蛋白質比例＋菜單食譜推薦"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="阻力訓練後要吃多少蛋白質才能達到最好的增肌效果? 越多越好嗎? 營養師根據科學實證告訴你  "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="運動後除了蛋白質以外，一定要攝取碳水化合物嗎? 營養師根據科學實證告訴你"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="想長肌肉，努力運動就夠了嗎? 吃對東西才能事半功倍3"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/reservation"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/run"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo1"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/hammer"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/article4"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alarm" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="99dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/article3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

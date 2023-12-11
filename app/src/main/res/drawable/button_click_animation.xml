@@ -1,0 +1,7 @@
+<!-- res/drawable/button_click_animation.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/pressed_color" android:state_pressed="true" />
+    <item android:drawable="@color/default_color" />
+</selector>
+
+

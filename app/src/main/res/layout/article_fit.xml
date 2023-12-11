@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@color/pink"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="文章推薦"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="14dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout12">
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="飲食"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="健身"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="替代運動"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:theme="@style/AppTheme" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="494dp"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="健身新手該怎麼開始訓練?"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="健身前必讀攻略！6個初學健身項目教學、健身迷思導正、我該請健身教練嗎？"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="【健身房注意事項】進入健身房之前，你必須要知道的10件大小事"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="減低受傷機會、增強成效！必讀10個健身新手入門注意事項"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white1"
+            android:text="增肌卡關怎麼辦？ 醫：過度訓練恐釀成效打折"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:theme="@style/AppTheme" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/article1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/reservation"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/run"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/hammer"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton36"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/article4"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--要使用ACTION_CALL意圖，你需要添加CALL_PHONE權限到你的應用程序清單-->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.example.incrediblemachine.andhiv.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.example.incrediblemachine.andhiv.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SportsWorldDemo2"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBKLsTb-u5D9lOg-cVVu264lNo5YMxuNvo" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Repair"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.Home"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.Article_food"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.Article_fit"
+            android:exported="true">
+        </activity>
+
+
+        <activity
+            android:name=".homepage.Reservation1"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".reservationpage.Reservation2"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".reservationpage.Reservation3"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".reservationpage.Reservation4"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.Running"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.RunningDemo2"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.RunningDemo3"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.Setting"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.settingpage.Personal"
+            android:exported="true">
+        </activity>
+
+
+        <activity
+            android:name=".homepage.Exchange"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.Replace"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".replace.ReplaceAnkle"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".replace.ReplaceBack"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".replace.ReplaceRope"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".replace.ReplaceElbow"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".replace.ReplaceKnee"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".homepage.Training"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_arms"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_armsedit"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.edit_arms_menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_back"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_backedit"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.edit_back_menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_chest"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_chestedit"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.edit_chest_menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_core"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_coreedit"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.edit_core_menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_leg"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_legedit"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.edit_leg_menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_shoulder"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.Training_shoulderedit"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".homepage.trainingpage.edit_shoulder_menu"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

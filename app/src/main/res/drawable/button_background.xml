@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#cbe86b" /> <!-- 設定Button的背景顏色，這裡使用黃色作為示例 -->
+    <corners android:radius="3000dp" /> <!-- 可選，設定Button的圓角半徑，根據需要調整 -->
+</shape>

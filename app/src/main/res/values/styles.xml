@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CheckedInDate">
+        <item name="android:background">@drawable/circle_red</item>
+    </style>
+
+    <style name="DefaultDate">
+        <item name="android:background">@drawable/circle_blue</item>
+    </style>
+
+    <!-- 定義顏色 -->
+    <item name="primaryColor" type="color">#cbe86b</item>
+    <item name="accentColor" type="color">#cbe86b</item>
+    <!-- 定義其他顏色 -->
+
+    <!-- 定義主題 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 一次套用所有顏色 -->
+        <item name="colorPrimary">#efa2b7</item>
+        <item name="colorAccent">#efa2b7</item>
+        <!-- 定義其他主題屬性 -->
+        <!-- 將文字顏色設定為黑色 -->
+        <item name="android:textColor">#000000</item>
+
+        <!-- 設定Button的背景顏色 -->
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button">
+        <!-- 設定Button的背景顏色 -->
+        <item name="android:background">@drawable/button_background</item>
+        <!-- 設定Button的文字顏色 -->u
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+
+</resources>
